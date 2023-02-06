@@ -4,4 +4,4 @@ auth:
     password: DOCKERHUB_PASSWORD
 images:
   # jenkins
-  docker.io/jenkins/jenkins:2.375.2-lts-jdk11: registry.cn-hangzhou.aliyuncs.com/mcalico/jenkins:2.375.2-lts-jdk11 
+  docker.io/jenkins/jenkins:2.375.2-lts: registry.cn-hangzhou.aliyuncs.com/mcalico/jenkins:2.375.2-lts
