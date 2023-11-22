@@ -5,5 +5,5 @@ auth:
 images:
   # jenkins
 
-  registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20230407: docker.io/jiamiao442/kube-webhook-certgen:v20230407
-  registry.k8s.io/ingress-nginx/controller:v1.8.2: docker.io/jiamiao442/controller:v1.8.2
+  registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20230407: jiamiao442/kube-webhook-certgen:v20230407
+  registry.k8s.io/ingress-nginx/controller:v1.8.2: jiamiao442/controller:v1.8.2
