@@ -7,3 +7,4 @@ images:
 
   registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20230407: jiamiao442/kube-webhook-certgen:v20230407
   registry.k8s.io/ingress-nginx/controller:v1.8.2: jiamiao442/controller:v1.8.2
+  ghcr.io/dexidp/dex:v2.37.0: jiamiao442/dex:v2.37.0
