@@ -8,3 +8,4 @@ images:
   registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20230407: jiamiao442/kube-webhook-certgen:v20230407
   registry.k8s.io/ingress-nginx/controller:v1.8.2: jiamiao442/controller:v1.8.2
   registry.k8s.io/kube-state-metrics/kube-state-metrics: jiamiao442/kube-state-metrics
+  registry.k8s.io/prometheus-adapter/prometheus-adapter: jiamiao442/prometheus-adapter
