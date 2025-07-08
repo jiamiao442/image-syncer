@@ -21,3 +21,5 @@ images:
   # k8s.gcr.io/ingress-nginx/controller: registry.cn-hangzhou.aliyuncs.com/mcalico/ingress-nginx-controller
   # k8s.gcr.io/ingress-nginx/kube-webhook-certgen: registry.cn-hangzhou.aliyuncs.com/mcalico/kube-webhook-certgen
   # k8s.gcr.io/defaultbackend-amd64: registry.cn-hangzhou.aliyuncs.com/mcalico/defaultbackend-amd64
+  # minio
+  quay.io/minio/minio:RELEASE.2025-04-22T22-12-26Z: registry.cn-hangzhou.aliyuncs.com/mcalico/minio
