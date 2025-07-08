@@ -5,8 +5,8 @@ auth:
 
 
 images:
-  #k8s.gcr.io/build-image/kube-cross:v1.24.0-go1.18.3-bullseye.0: registry.cn-hangzhou.aliyuncs.com/mcalico/kube-cross:v1.24.0-go1.18.3-bullseye.0
-  #docker.io/sameersbn/postgresql:12-20200524: registry.cn-hangzhou.aliyuncs.com/mcalico/postgresql:12-20200524
+  # k8s.gcr.io/build-image/kube-cross:v1.24.0-go1.18.3-bullseye.0: registry.cn-hangzhou.aliyuncs.com/mcalico/kube-cross:v1.24.0-go1.18.3-bullseye.0
+  # docker.io/sameersbn/postgresql:12-20200524: registry.cn-hangzhou.aliyuncs.com/mcalico/postgresql:12-20200524
   # calico
   docker.io/calico/cni: registry.cn-hangzhou.aliyuncs.com/mcalico/cni
   docker.io/calico/kube-controllers: registry.cn-hangzhou.aliyuncs.com/mcalico/kube-controllers
@@ -16,7 +16,7 @@ images:
   quay.io/tigera/operator: registry.cn-hangzhou.aliyuncs.com/mcalico/operator
   docker.io/calico/typha: registry.cn-hangzhou.aliyuncs.com/mcalico/typha
   docker.io/calico/csi: registry.cn-hangzhou.aliyuncs.com/mcalico/csi
-  #k8s.gcr.io/metrics-server/metrics-server: registry.cn-hangzhou.aliyuncs.com/mcalico/metrics-server
-  #k8s.gcr.io/ingress-nginx/controller: registry.cn-hangzhou.aliyuncs.com/mcalico/ingress-nginx-controller
-  #k8s.gcr.io/ingress-nginx/kube-webhook-certgen: registry.cn-hangzhou.aliyuncs.com/mcalico/kube-webhook-certgen
-  #k8s.gcr.io/defaultbackend-amd64: registry.cn-hangzhou.aliyuncs.com/mcalico/defaultbackend-amd64
+  # k8s.gcr.io/metrics-server/metrics-server: registry.cn-hangzhou.aliyuncs.com/mcalico/metrics-server
+  # k8s.gcr.io/ingress-nginx/controller: registry.cn-hangzhou.aliyuncs.com/mcalico/ingress-nginx-controller
+  # k8s.gcr.io/ingress-nginx/kube-webhook-certgen: registry.cn-hangzhou.aliyuncs.com/mcalico/kube-webhook-certgen
+  # k8s.gcr.io/defaultbackend-amd64: registry.cn-hangzhou.aliyuncs.com/mcalico/defaultbackend-amd64
