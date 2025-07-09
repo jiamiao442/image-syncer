@@ -10,7 +10,7 @@ on:
   #  - cron: '0 23 * * 1'   #  no schedule
 
 env:
-  IMAGE_SYNCER_VERSION: v1.3.1
+  IMAGE_SYNCER_VERSION: v1.5.5
   ALIYUN_USERNAME: ${{ secrets.ALIYUN_USERNAME }}
   ALIYUN_PASSWORD: ${{ secrets.ALIYUN_PASSWORD }}
   
