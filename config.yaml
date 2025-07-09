@@ -8,23 +8,19 @@ images:
 #   # k8s.gcr.io/build-image/kube-cross:v1.24.0-go1.18.3-bullseye.0: registry.cn-hangzhou.aliyuncs.com/mcalico/kube-cross:v1.24.0-go1.18.3-bullseye.0
 #   # docker.io/sameersbn/postgresql:12-20200524: registry.cn-hangzhou.aliyuncs.com/mcalico/postgresql:12-20200524
 #   # calico
-#  "docker.io/calico/cni:([vV]?\\d+(?:\\.\\d+){2})$": "registry.cn-hangzhou.aliyuncs.com/mcalico/cni:$1"
   docker.io/calico/cni:/^[vV]?\d+(\.\d+){2}$/: registry.cn-hangzhou.aliyuncs.com/mcalico/cni
-#   docker.io/calico/kube-controllers:v3.30.2: registry.cn-hangzhou.aliyuncs.com/mcalico/kube-controllers
-#   docker.io/calico/node:v3.30.2: registry.cn-hangzhou.aliyuncs.com/mcalico/node
-#   docker.io/calico/pod2daemon-flexvol:v3.30.2: registry.cn-hangzhou.aliyuncs.com/mcalico/pod2daemon-flexvol
-#   docker.io/calico/apiserver:v3.30.2: registry.cn-hangzhou.aliyuncs.com/mcalico/apiserver
-#   quay.io/tigera/operator:v1.38.3: registry.cn-hangzhou.aliyuncs.com/mcalico/operator
-#   docker.io/calico/typha:v3.30.2: registry.cn-hangzhou.aliyuncs.com/mcalico/typha
-#   docker.io/calico/csi:v3.30.2: registry.cn-hangzhou.aliyuncs.com/mcalico/csi
-#   docker.io/calico/node-driver-registrar:v3.30.2: registry.cn-hangzhou.aliyuncs.com/mcalico/node-driver-registrar 
-#   # k8s.gcr.io/metrics-server/metrics-server: registry.cn-hangzhou.aliyuncs.com/mcalico/metrics-server
-#   # k8s.gcr.io/ingress-nginx/controller: registry.cn-hangzhou.aliyuncs.com/mcalico/ingress-nginx-controller
-#   # k8s.gcr.io/ingress-nginx/kube-webhook-certgen: registry.cn-hangzhou.aliyuncs.com/mcalico/kube-webhook-certgen
-#   # k8s.gcr.io/defaultbackend-amd64: registry.cn-hangzhou.aliyuncs.com/mcalico/defaultbackend-amd64
-#   # minio
-#   quay.io/minio/minio:RELEASE.2025-04-22T22-12-26Z: registry.cn-hangzhou.aliyuncs.com/mcalico/minio
+  docker.io/calico/kube-controllers:/^[vV]?\d+(\.\d+){2}$/: registry.cn-hangzhou.aliyuncs.com/mcalico/kube-controllers
+  docker.io/calico/node:/^[vV]?\d+(\.\d+){2}$/: registry.cn-hangzhou.aliyuncs.com/mcalico/node
+  docker.io/calico/pod2daemon-flexvol:/^[vV]?\d+(\.\d+){2}$/: registry.cn-hangzhou.aliyuncs.com/mcalico/pod2daemon-flexvol
+  docker.io/calico/apiserver:/^[vV]?\d+(\.\d+){2}$/: registry.cn-hangzhou.aliyuncs.com/mcalico/apiserver
+  quay.io/tigera/operator:/^[vV]?\d+(\.\d+){2}$/: registry.cn-hangzhou.aliyuncs.com/mcalico/operator
+  docker.io/calico/typha:/^[vV]?\d+(\.\d+){2}$/: registry.cn-hangzhou.aliyuncs.com/mcalico/typha
+  docker.io/calico/csi:/^[vV]?\d+(\.\d+){2}$/: registry.cn-hangzhou.aliyuncs.com/mcalico/csi
+  docker.io/calico/node-driver-registrar:/^[vV]?\d+(\.\d+){2}$/: registry.cn-hangzhou.aliyuncs.com/mcalico/node-driver-registrar 
+  # k8s.gcr.io/metrics-server/metrics-server: registry.cn-hangzhou.aliyuncs.com/mcalico/metrics-server
+  # k8s.gcr.io/ingress-nginx/controller: registry.cn-hangzhou.aliyuncs.com/mcalico/ingress-nginx-controller
+  # k8s.gcr.io/ingress-nginx/kube-webhook-certgen: registry.cn-hangzhou.aliyuncs.com/mcalico/kube-webhook-certgen
+  # k8s.gcr.io/defaultbackend-amd64: registry.cn-hangzhou.aliyuncs.com/mcalico/defaultbackend-amd64
+  # minio
+  quay.io/minio/minio:RELEASE.2025-04-22T22-12-26Z: registry.cn-hangzhou.aliyuncs.com/mcalico/minio
 
-# rules:
-#   # 匹配格式：vX.Y.Z 或 X.Y.Z（如 v3.1.2 或 3.1.2）
-#   "docker.io/calico/cni:([vV]?\\d+(?:\\.\\d+){2})$": "registry.cn-hangzhou.aliyuncs.com/mcalico/cni:$1"
