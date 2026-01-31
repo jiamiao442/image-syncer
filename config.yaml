@@ -28,8 +28,8 @@ images:
   # calico
   #docker.io/calico/cni:v3.30.2: registry.cn-hangzhou.aliyuncs.com/mcalico/cni
   #docker.io/calico/kube-controllers:v3.30.2: registry.cn-hangzhou.aliyuncs.com/mcalico/kube-controllers
- # docker.io/calico/node:v3.30.2: registry.cn-hangzhou.aliyuncs.com/mcalico/node
- # docker.io/calico/pod2daemon-flexvol:v3.30.2: registry.cn-hangzhou.aliyuncs.com/mcalico/pod2daemon-flexvol
+  #docker.io/calico/node:v3.30.2: registry.cn-hangzhou.aliyuncs.com/mcalico/node
+  #docker.io/calico/pod2daemon-flexvol:v3.30.2: registry.cn-hangzhou.aliyuncs.com/mcalico/pod2daemon-flexvol
   #docker.io/calico/apiserver:v3.30.2: registry.cn-hangzhou.aliyuncs.com/mcalico/apiserver
   #quay.io/tigera/operator:v1.38.3: registry.cn-hangzhou.aliyuncs.com/mcalico/operator
   #docker.io/calico/typha:v3.30.2: registry.cn-hangzhou.aliyuncs.com/mcalico/typha
