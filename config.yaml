@@ -37,4 +37,4 @@ images:
   #docker.io/calico/node-driver-registrar:v3.30.2: registry.cn-hangzhou.aliyuncs.com/mcalico/node-driver-registrar
   # kube-vip
   # ghcr.io/kube-vip/kube-vip:v1.0.4: registry.cn-hangzhou.aliyuncs.com/mcalico/kube-vip
-  ghcr.io/kube-vip/kube-vip-cloud-provider:v0.0.12 registry.cn-hangzhou.aliyuncs.com/mcalico/kube-vip-cloud-provider
+  ghcr.io/kube-vip/kube-vip-cloud-provider:v0.0.12: registry.cn-hangzhou.aliyuncs.com/mcalico/kube-vip-cloud-provider
