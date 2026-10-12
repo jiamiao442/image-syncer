@@ -47,12 +47,12 @@ images:
   #registry.k8s.io/dns/k8s-dns-node-cache:1.26.8: registry.cn-hangzhou.aliyuncs.com/mcalico/k8s-dns-node-cache
   # kube-prometheus release-0.19
   ghcr.io/jimmidyson/configmap-reload:v0.15.0: registry.cn-hangzhou.aliyuncs.com/mcalico/configmap-reload:v0.15.0
-  #grafana/grafana:13.2.2: registry.cn-hangzhou.aliyuncs.com/mcalico/grafana:13.2.2
-  #quay.io/brancz/kube-rbac-proxy:v0.22.1: registry.cn-hangzhou.aliyuncs.com/mcalico/kube-rbac-proxy:v0.22.1
-  #quay.io/prometheus/alertmanager:v0.34.1: registry.cn-hangzhou.aliyuncs.com/mcalico/alertmanager:v0.34.1
-  #quay.io/prometheus/blackbox-exporter:v0.28.0: registry.cn-hangzhou.aliyuncs.com/mcalico/blackbox-exporter:v0.28.0
-  #quay.io/prometheus/node-exporter:v1.12.1: registry.cn-hangzhou.aliyuncs.com/mcalico/node-exporter:v1.12.1
-  #quay.io/prometheus-operator/prometheus-operator:v0.94.1: registry.cn-hangzhou.aliyuncs.com/mcalico/prometheus-operator:v0.94.1
-  #quay.io/prometheus/prometheus:v3.14.0: registry.cn-hangzhou.aliyuncs.com/mcalico/prometheus:v3.14.0
-  #registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.20.0: registry.cn-hangzhou.aliyuncs.com/mcalico/kube-state-metrics:v2.20.0
-  #registry.k8s.io/prometheus-adapter/prometheus-adapter:v0.12.0: registry.cn-hangzhou.aliyuncs.com/mcalico/prometheus-adapter:v0.12.0
+  grafana/grafana:13.2.2: registry.cn-hangzhou.aliyuncs.com/mcalico/grafana:13.2.2
+  quay.io/brancz/kube-rbac-proxy:v0.22.1: registry.cn-hangzhou.aliyuncs.com/mcalico/kube-rbac-proxy:v0.22.1
+  quay.io/prometheus/alertmanager:v0.34.1: registry.cn-hangzhou.aliyuncs.com/mcalico/alertmanager:v0.34.1
+  quay.io/prometheus/blackbox-exporter:v0.28.0: registry.cn-hangzhou.aliyuncs.com/mcalico/blackbox-exporter:v0.28.0
+  quay.io/prometheus/node-exporter:v1.12.1: registry.cn-hangzhou.aliyuncs.com/mcalico/node-exporter:v1.12.1
+  quay.io/prometheus-operator/prometheus-operator:v0.94.1: registry.cn-hangzhou.aliyuncs.com/mcalico/prometheus-operator:v0.94.1
+  quay.io/prometheus/prometheus:v3.14.0: registry.cn-hangzhou.aliyuncs.com/mcalico/prometheus:v3.14.0
+  registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.20.0: registry.cn-hangzhou.aliyuncs.com/mcalico/kube-state-metrics:v2.20.0
+  registry.k8s.io/prometheus-adapter/prometheus-adapter:v0.12.0: registry.cn-hangzhou.aliyuncs.com/mcalico/prometheus-adapter:v0.12.0
