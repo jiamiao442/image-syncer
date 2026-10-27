@@ -58,5 +58,9 @@ images:
 #  registry.k8s.io/prometheus-adapter/prometheus-adapter:v0.12.0: registry.cn-hangzhou.aliyuncs.com/mcalico/prometheus-adapter:v0.12.0
 
 #  MetalLB
-   quay.io/metallb/controller:v0.16.1: registry.cn-hangzhou.aliyuncs.com/mcalico/controller:v0.16.1
-   quay.io/metallb/speaker:v0.16.1: registry.cn-hangzhou.aliyuncs.com/mcalico/speaker:v0.16.1
+#   quay.io/metallb/controller:v0.16.1: registry.cn-hangzhou.aliyuncs.com/mcalico/controller:v0.16.1
+#   quay.io/metallb/speaker:v0.16.1: registry.cn-hangzhou.aliyuncs.com/mcalico/speaker:v0.16.1
+
+  # nginx-gateway-fabric 2.8.0
+  ghcr.io/nginx/nginx-gateway-fabric:2.8.0: registry.cn-hangzhou.aliyuncs.com/mcalico/nginx-gateway-fabric:2.8.0
+  ghcr.io/nginx/nginx-gateway-fabric/nginx:2.8.0: registry.cn-hangzhou.aliyuncs.com/mcalico/nginx-gateway-fabric-nginx:2.8.0
