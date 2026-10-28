@@ -62,5 +62,10 @@ images:
 #   quay.io/metallb/speaker:v0.16.1: registry.cn-hangzhou.aliyuncs.com/mcalico/speaker:v0.16.1
 
   # nginx-gateway-fabric 2.8.0
-  ghcr.io/nginx/nginx-gateway-fabric:2.8.0: registry.cn-hangzhou.aliyuncs.com/mcalico/nginx-gateway-fabric:2.8.0
-  ghcr.io/nginx/nginx-gateway-fabric/nginx:2.8.0: registry.cn-hangzhou.aliyuncs.com/mcalico/nginx-gateway-fabric-nginx:2.8.0
+#  ghcr.io/nginx/nginx-gateway-fabric:2.8.0: registry.cn-hangzhou.aliyuncs.com/mcalico/nginx-gateway-fabric:2.8.0
+#  ghcr.io/nginx/nginx-gateway-fabric/nginx:2.8.0: registry.cn-hangzhou.aliyuncs.com/mcalico/nginx-gateway-fabric-nginx:2.8.0
+
+#  ingress-nginx v1.5.1 images  last version
+  registry.k8s.io/ingress-nginx/controller:v1.15.1:  registry.cn-hangzhou.aliyuncs.com/mcalico/ingress-nginx-controller:v1.15.1
+  registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.9: registry.cn-hangzhou.aliyuncs.com/mcalico/kube-webhook-certgen:v1.6.9
+  registry.k8s.io/defaultbackend-amd64:1.5: registry.cn-hangzhou.aliyuncs.com/mcalico/defaultbackend-amd64:1.5
